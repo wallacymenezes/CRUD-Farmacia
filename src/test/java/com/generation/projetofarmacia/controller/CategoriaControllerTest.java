@@ -30,7 +30,7 @@ public class CategoriaControllerTest {
     private CategoriaController categoriaController;
 
     @Test
-    @DisplayName("✔ Cadastrar uma nova categoria")
+    @DisplayName("✔ Cadastrar uma nova Categoria")
     public void deveCadastrarUmaNovaCategoria() {
         HttpEntity<Categoria> corpoRequisicao = new HttpEntity<Categoria>(new Categoria(0L,
                 "Nova Categoria", "Descrição da nova categoria"));
@@ -42,8 +42,8 @@ public class CategoriaControllerTest {
     }
 
     @Test
-    @DisplayName("Atualizar um Usuario")
-    public void deveAtualizarUmUsuario(){
+    @DisplayName("Atualizar um Categoria")
+    public void deveAtualizarUmaCategoria(){
 
         Categoria categoriaCadastrada = categoriaRepository.save(new Categoria(0L, "Nova Categoria", "Descrição da nova categoria"));
 
@@ -53,11 +53,13 @@ public class CategoriaControllerTest {
 
         ResponseEntity<Categoria> corpoResposta = testRestTemplate
                 .exchange("/categorias", HttpMethod.PUT, corpoRequisicao, Categoria.class);
+
+        assertEquals(HttpStatus.OK, corpoResposta.getStatusCode());
     }
 
     @Test
-    @DisplayName("Listar todos os Usuarios")
-    public void deveMostrarTodosUsuarios() {
+    @DisplayName("Listar todos os Categoria")
+    public void deveMostrarTodasCategorias() {
 
         categoriaRepository.save(new Categoria(0L, "Nova Categoria", "Descrição da nova categoria"));
 
