@@ -35,6 +35,7 @@ Este projeto é uma aplicação backend para gerenciamento de uma farmácia, des
 ![H2 Database](https://img.shields.io/badge/H2-4479A1.svg?style=for-the-badge&logo=h2&logoColor=white) 
 ![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162.svg?style=for-the-badge&logo=JUnit5&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?style=for-the-badge&logo=Swagger&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 - **Java**: Como linguagem de programação principal.
 - **Spring**: Como framework principal.
@@ -47,6 +48,7 @@ Este projeto é uma aplicação backend para gerenciamento de uma farmácia, des
 - **H2 Database**: Para testes de integração.
 - **Junit 5**: Para testes unitários.
 - **Swagger**: Para documentação do código.
+- **Docker**: Para criação do container e que o render possa interpretar o Java.
 
 ## Ferramentas
 
