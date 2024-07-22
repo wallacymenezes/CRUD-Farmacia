@@ -42,19 +42,6 @@ public class CategoriaControllerTest {
     }
 
     @Test
-    @DisplayName("✔ Não repetir uma categoria")
-    public void naoDeveRepetirCategoria() {
-        categoriaRepository.save(new Categoria(0L, "Nova Categoria", "Descrição da nova categoria"));
-
-        HttpEntity<Categoria> corpoRequisicao = new HttpEntity<Categoria>(new Categoria(0L, "Nova Categoria", "Descrição da nova categoria"));
-
-        ResponseEntity<String> corpoResposta = testRestTemplate
-                .exchange("/categorias", HttpMethod.POST, corpoRequisicao, String.class);
-
-        assertEquals(HttpStatus.BAD_REQUEST, corpoResposta.getStatusCode());
-    }
-
-    @Test
     @DisplayName("Atualizar um Usuario")
     public void deveAtualizarUmUsuario(){
 

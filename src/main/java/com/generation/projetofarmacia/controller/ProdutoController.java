@@ -1,6 +1,5 @@
 package com.generation.projetofarmacia.controller;
 
-import com.generation.projetofarmacia.model.Categoria;
 import com.generation.projetofarmacia.model.Produto;
 import com.generation.projetofarmacia.repository.ProdutoRepository;
 import jakarta.validation.Valid;
@@ -14,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/produto")
+@RequestMapping("/produtos")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ProdutoController {
 

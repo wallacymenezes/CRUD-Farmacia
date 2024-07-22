@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/categoria")
+@RequestMapping("/categorias")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategoriaController {
 
@@ -63,9 +63,9 @@ public class CategoriaController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {
-        Optional<Categoria> temaOptional = categoriaRepository.findById(id);
+        Optional<Categoria> categoriaOptional = categoriaRepository.findById(id);
 
-        if (temaOptional.isEmpty()) {
+        if (categoriaOptional.isEmpty()) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }else{
             categoriaRepository.deleteById(id);
