@@ -26,17 +26,39 @@ Este projeto é uma aplicação backend para gerenciamento de uma farmácia, des
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000.svg?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white) 
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Web](https://img.shields.io/badge/Spring%20Web-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![H2 Database](https://img.shields.io/badge/H2-4479A1.svg?style=for-the-badge&logo=h2&logoColor=white) 
+![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162.svg?style=for-the-badge&logo=JUnit5&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?style=for-the-badge&logo=Swagger&logoColor=black)
+
+- **Java**: Como linguagem de programação principal.
+- **Spring**: Como framework principal.
+- **JWT**: Para o uso de tokens e validação de usuário.
+- **Spring Data JPA**: Para a persistência de dados.
+- **Spring Web**: Para a criação de APIs REST.
+- **Spring Security**: Para a segurança da aplicação.
+- **MySQL**: Para o armazenamento de dados.
+- **PostgreSQL**: Para adaptação do código para o RENDER.
+- **H2 Database**: Para testes de integração.
+- **Junit 5**: Para testes unitários.
+- **Swagger**: Para documentação do código.
 
 ## Ferramentas
 
-![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
+![Render](https://img.shields.io/badge/Render-000000.svg?style=for-the-badge&logo=render&logoColor=white)
 
-- **Status do Projeto**: Em desenvolvimento.
+- **Status do Projeto**: Concluido.
 - **Autor**: Wallacy Menezes.
-- **Data de Criação**: 22/07/2024.
-
+- **Data de Inicio**: 22/07/2024.
+- **Data de Conclusão**: 22/07/2024.
+- 
     ```repositório
     Link do repositório (main): https://github.com/wallacymenezes/CRUD-Farmacia/tree/main
 
