@@ -26,9 +26,6 @@ public class CategoriaControllerTest {
     @Autowired
     private TestRestTemplate testRestTemplate;
 
-    @Autowired
-    private CategoriaController categoriaController;
-
     @Test
     @DisplayName("✔ Cadastrar uma nova Categoria")
     public void deveCadastrarUmaNovaCategoria() {
