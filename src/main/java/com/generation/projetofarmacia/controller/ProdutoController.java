@@ -44,7 +44,7 @@ public class ProdutoController {
 
     @PostMapping
     public ResponseEntity<Produto> create(@Valid @RequestBody Produto produto) {
-        return ResponseEntity.ok(produtoRepository.save(produto));
+        return ResponseEntity.status(HttpStatus.CREATED).body(produtoRepository.save(produto));
     }
 
     @PutMapping
