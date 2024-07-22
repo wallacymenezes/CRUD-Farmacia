@@ -48,7 +48,7 @@ public class CategoriaController {
                 .body(categoriaRepository.save(categoria));
     }
 
-    @PutMapping
+    @PutMapping()
     public ResponseEntity<Categoria> update(@Valid @RequestBody Categoria categoria) {
         try {
             return categoriaRepository.findById(categoria.getId())

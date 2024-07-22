@@ -12,11 +12,10 @@ public class Categoria {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @NotBlank(message = "O atributo não pode ser nulo e nem vazio.")
-    @Size(min = 1, max = 100, message = "O atributo deve ter no mínimo 5 e no máximo 100 caracteres")
+    @NotBlank(message = "O atributo nome não pode ser nulo e nem vazio.")
     private String nome;
 
-    @NotBlank(message = "O atributo não pode ser nulo e nem vazio.")
+    @NotBlank(message = "O atributo descricao não pode ser nulo e nem vazio.")
     @Size(min = 5, max = 255, message = "O atributo deve ter no mínimo 5 e no máximo 255 caracteres")
     private String descricao;
 
