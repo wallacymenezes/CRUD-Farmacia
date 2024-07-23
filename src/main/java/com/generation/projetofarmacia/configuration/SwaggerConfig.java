@@ -16,7 +16,7 @@ import org.springdoc.core.customizers.OpenApiCustomizer;
 public class SwaggerConfig {
 
     @Bean
-    OpenAPI springBlogPessoalOpenAPI(){
+    OpenAPI springProjetoFarmacialOpenAPI(){
         return new OpenAPI()
                 .info(new Info()
                         .title("Projeto Backend Farmacia")
